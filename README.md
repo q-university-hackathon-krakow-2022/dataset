@@ -3,7 +3,7 @@ This repository contains datasets for participants of Krakow University Hackatho
 
 Datasets are JSON collection files, containing 1000 validated records with consistent formatting.
 
-All files with format descriptions are available on **separate branches** of this repositories.
+All files with format descriptions are available on **separate branches** of this repository.
 
 ## dataset-bot.py script
 
