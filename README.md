@@ -9,6 +9,19 @@ All files with format descriptions are available on **separate branches** of thi
 
 This is simple Python script that is able to read provided json file and, one-by-one, send all records with HTTP POST method to the provided HTTP endpoint. 
 
+### Prerequisites
+
+Using `pip3` tool install all necessary packages to import the following:
+```
+from argparse import ArgumentParser
+from time import sleep
+import sys
+import time
+import json
+import requests
+import random
+```
+
 ### Example of usage
 
     python3 dataset-bot.py --d dataset.json -e localhost:8080/yourendpoint
